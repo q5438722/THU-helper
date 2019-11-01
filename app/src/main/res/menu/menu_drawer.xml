@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_first"
+            android:checked="true"
+            android:icon="@drawable/net"
+            android:title="网关" />
+        <item
+            android:id="@+id/navigation_second"
+            android:icon="@drawable/table"
+            android:title="课程表" />
+        <item
+            android:id="@+id/navigation_third"
+            android:icon="@drawable/chat"
+            android:title="树洞" />
+        <item
+            android:id="@+id/navigation_forth"
+            android:icon="@drawable/hammer"
+            android:title="登录" />
+    </group>
+</menu>
